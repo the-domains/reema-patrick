@@ -21,9 +21,9 @@ color:
     - '#e75954'
     - '#fd9891'
   brandStrength: 0.5
-  lightness: 0.5
-  saturation: 0.5
-  rhythmicContrast: 0.5
+  lightness: 1
+  saturation: 0.5625
+  rhythmicContrast: 1
 purpose:
   - name: follow
     item: null
