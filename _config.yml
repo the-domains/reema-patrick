@@ -1,30 +1,55 @@
-name: reema-patrick
 favicon: null
-layout_spectrum: 0.85972
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - filter:
+      notType:
+        type: WebPage
+    index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+  - filter:
+      type:
+        type: Article
+    permalink:
+      path: '/:title/'
+  - filter:
+      type:
+        type: WebPage
+    permalink:
+      path: '/:title/'
+      navigable: true
+purpose:
+  - name: follow
+    url: null
+    item: null
+typography_spectrum: 0.2
 color:
+  saturation: 0.1875
+  brandStrength: 0
+  rhythmicContrast: 0.25
   brandColors:
     - '#2e2828'
     - '#bec9c5'
     - '#7d8f82'
     - '#e75954'
     - '#fd9891'
-  brandStrength: 0
   lightness: 1
-  saturation: 0.1875
-  rhythmicContrast: 0.25
-purpose:
-  - name: follow
-    item: null
-    url: null
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+layout_spectrum: 0.2276596
+name: reema-patrick
