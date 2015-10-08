@@ -47,7 +47,7 @@ color:
     - '#fd9891'
   brandStrength: 0
   lightness: 1
-  saturation: 0.3125
+  saturation: 0.625
   rhythmicContrast: 0.25
 purpose:
   - name: follow
